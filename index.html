@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="author" content="Ogbe Restaurant">
+   <meta name="description"
+      content="Enjoy delicious Nigerian and continental meals at Ogbe Restaurant & Grill. Explore our menu, discover local favourites and plan your next meal.">
+   <meta name="theme-color" content="#171717">
+   <title>Ogbe Restaurant & Grill | Great Food, Great Moments</title>
+
+   <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet" />
+   <link href="css/bootstrap.min.css" rel="stylesheet" />
+   <link href="css/aos.css" rel="stylesheet" />
+   <link href="css/swiper-bundle.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/all.min.css" />
+   <link rel="stylesheet" href="css/magnific-popup.css" />
+   <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+   <!-- TOP BAR -->
+   <div id="topbar">
+      <div class="container">
+         <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+            <div class="top-contact d-flex flex-wrap">
+               <span><i class="fas fa-phone-alt"></i> +234 8137157686</span>
+               <span><i class="fas fa-envelope"></i> meal@ogberestaurant.com</span>
+               <span><i class="fas fa-map-marker-alt"></i> Nigeria</span>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+               <span class="ttag"><i class="fas fa-fire me-1"></i> Fresh Meals, Made With Care</span>
+               <div class="tsoc">
+                  <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg" id="nav">
+      <div class="container">
+         <a class="navbar-brand" href="#hero">
+            <div class="blogo">
+               <div class="bico"><i class="fas fa-utensils"></i></div>
+               <div>
+                  <div class="bname">Og<span>be</span></div>
+                  <div class="bsub">Restaurant &amp; Grill</div>
+               </div>
+            </div>
+         </a>
+
+         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars" style="color:var(--primary);font-size:1.35rem;"></i>
+         </button>
+
+         <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav mx-auto">
+               <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+               <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+               <li class="nav-item"><a class="nav-link" href="#chefs">Our Kitchen</a></li>
+               <li class="nav-item"><a class="nav-link" href="#reservation">Reservation</a></li>
+               <li class="nav-item"><a class="nav-link" href="#testimonials">Reviews</a></li>
+               <li class="nav-item"><a class="nav-link" href="#contact-section">Contact</a></li>
+            </ul>
+            <div class="d-flex align-items-center gap-1">
+               <button id="navSearchBtn" title="Search"><i class="fas fa-search"></i></button>
+               <a href="#menu" class="nav-link nav-cta"><i class="fas fa-shopping-bag me-1"></i>Explore Menu</a>
+            </div>
+         </div>
+      </div>
+   </nav>
+
+   <!-- SEARCH OVERLAY -->
+   <div id="searchOv">
+      <button class="sovclose" id="searchClose"><i class="fas fa-times"></i></button>
+      <div class="sovbox">
+         <h4>What would you love to eat today?</h4>
+         <div class="sovinput">
+            <input type="text" id="searchInput" placeholder="Search jollof rice, suya, chicken..." autocomplete="off" />
+            <button><i class="fas fa-search"></i></button>
+         </div>
+         <div class="sovcats">
+            <div class="sovcat active" data-cat="all"><img src="img/menu/1.jpg" alt="" />All Meals</div>
+            <div class="sovcat" data-cat="burgers"><img src="img/menu/1.jpg" alt="" />Rice Meals</div>
+            <div class="sovcat" data-cat="pizza"><img src="img/menu/2.jpg" alt="" />Grills</div>
+            <div class="sovcat" data-cat="chicken"><img src="img/menu/3.jpg" alt="" />Chicken</div>
+            <div class="sovcat" data-cat="wraps"><img src="img/menu/4.jpg" alt="" />Swallow</div>
+            <div class="sovcat" data-cat="pasta"><img src="img/menu/5.jpg" alt="" />Soups</div>
+            <div class="sovcat" data-cat="desserts"><img src="img/menu/6.jpg" alt="" />Sides</div>
+         </div>
+         <div class="sovtrend">
+            <p><i class="fas fa-fire me-1" style="color:var(--secondary);"></i>Popular Choices</p>
+            <span class="ttag">Jollof Rice</span>
+            <span class="ttag">Beef Suya</span>
+            <span class="ttag">Grilled Chicken</span>
+            <span class="ttag">Pepper Soup</span>
+            <span class="ttag">Fried Rice</span>
+         </div>
+      </div>
+   </div>
+
+   <!-- HERO -->
+   <section id="hero">
+      <div class="hs hs1"></div>
+      <div class="hs hs2"></div>
+      <div class="hbgtxt">FOOD</div>
+      <div class="container">
+         <div class="row align-items-center g-5" style="min-height:88vh;">
+            <div class="col-lg-6">
+               <div class="hbadge">
+                  <div class="hbi"><i class="fas fa-utensils"></i></div>
+                  <span>Authentic Flavours. Memorable Meals.</span>
+               </div>
+
+               <h1 class="htitle">Good Food.<br /><span class="hl">Great Moments.</span></h1>
+
+               <p class="hdesc">
+                  From delicious Nigerian favourites to tasty continental meals,
+                  enjoy freshly prepared dishes made to bring people together.
+                  Your next favourite meal is waiting at Ogbe.
+               </p>
+
+               <div class="d-flex flex-wrap gap-3 mb-2">
+                  <a href="#menu" class="btn-red"><i class="fas fa-utensils"></i>Explore Our Menu</a>
+                  <a href="#about" class="magnific_popup btn-play">
+                     <div class="pico"><i class="fas fa-arrow-down"></i></div>
+                     <span>Discover Ogbe</span>
+                  </a>
+               </div>
+
+               <div class="hstats d-flex gap-3 flex-wrap mt-4">
+                  <div class="hstat"><span class="snum"><i class="fas fa-fire"></i></span><small>Freshly
+                        Prepared</small></div>
+                  <div class="sdiv"></div>
+                  <div class="hstat"><span class="snum"><i class="fas fa-leaf"></i></span><small>Quality
+                        Ingredients</small></div>
+                  <div class="sdiv"></div>
+                  <div class="hstat"><span class="snum"><i class="fas fa-heart"></i></span><small>Made With Care</small>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-6">
+               <div style="position:relative;text-align:center;">
+                  <div class="hcircle">
+                     <img src="jollof-rice-chicken.jpg" alt="Delicious meal served at Ogbe Restaurant" />
+                  </div>
+                  <div class="fcard fc1">
+                     <div class="fcoi r"><i class="fas fa-fire"></i></div>
+                     <div><span class="fcnum">Fresh Daily</span><span class="fcsm">Prepared with care</span></div>
+                  </div>
+                  <div class="fcard fc2">
+                     <div class="fcoi y"><i class="fas fa-utensils"></i></div>
+                     <div><span class="fcnum">Local Flavours</span><span class="fcsm">Made for you</span></div>
+                  </div>
+                  <div class="fcard fc3">
+                     <div class="fcoi g"><i class="fas fa-smile"></i></div>
+                     <div><span class="fcnum">Great Taste</span><span class="fcsm">Every meal matters</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- MARQUEE -->
+   <div class="mqsec">
+      <div class="mqtrack">
+         <div class="mqitem"><i class="fas fa-circle"></i> Nigerian Jollof Rice</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Freshly Grilled Chicken</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Delicious Fried Rice</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Tasty Beef Suya</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Traditional Soups</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Freshly Prepared Meals</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Nigerian Jollof Rice</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Freshly Grilled Chicken</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Delicious Fried Rice</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Tasty Beef Suya</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Traditional Soups</div>
+         <div class="mqitem"><i class="fas fa-circle"></i> Freshly Prepared Meals</div>
+      </div>
+   </div>
+
+   <!-- CATEGORIES -->
+   <section id="category">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">Explore Our Food</span>
+            <h2 class="stitle">Choose Your <span>Favourite</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:480px;">Discover delicious meals prepared with flavour, freshness
+               and care.</p>
+         </div>
+
+         <div class="row g-3 justify-content-center">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in">
+               <div class="catcard active" data-filter="all">
+                  <img class="catimg" src="img/banner-img.jpg" alt="All meals" />
+                  <div class="catnm">All Meals</div>
+                  <div class="catct">Explore menu</div>
+               </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="70">
+               <div class="catcard" data-filter="burgers">
+                  <img class="catimg" src="nigerian-fried-rice.jpg" alt="Rice meals" />
+                  <div class="catnm">Rice Meals</div>
+                  <div class="catct">Jollof &amp; Fried Rice</div>
+               </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="140">
+               <div class="catcard" data-filter="pizza">
+                  <img class="catimg" src="beef-suya.jpg" alt="Grilled food" />
+                  <div class="catnm">Grills</div>
+                  <div class="catct">Suya &amp; Fish</div>
+               </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="210">
+               <div class="catcard" data-filter="chicken">
+                  <img class="catimg" src="jollof-rice-chicken.jpg" alt="Chicken meals" />
+                  <div class="catnm">Chicken</div>
+                  <div class="catct">Grilled &amp; Fried</div>
+               </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="280">
+               <div class="catcard" data-filter="wraps">
+                  <img class="catimg" src="swallow.jpg" alt="Swallow meals" />
+                  <div class="catnm">Swallow</div>
+                  <div class="catct">Soups &amp; Swallow</div>
+               </div>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="350">
+               <div class="catcard" data-filter="desserts">
+                  <img class="catimg" src="swallow & drink.jpg" alt="Sides and extras" />
+                  <div class="catnm">Sides</div>
+                  <div class="catct">Extras &amp; Drinks</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- ABOUT -->
+   <section id="about">
+      <div class="container">
+         <div class="row align-items-center g-5">
+            <div class="col-lg-5" data-aos="fade-right">
+               <div class="astack">
+                  <div class="aexp"><span class="anum"><i class="fas fa-heart"></i></span><small>Food Made<br />With
+                        Care</small></div>
+                  <div class="amain"><img src="img/about1.jpg" alt="Food prepared at Ogbe Restaurant" /></div>
+                  <div class="asm"><img src="img/about2.jpg" alt="Freshly prepared meal" /></div>
+               </div>
+            </div>
+
+            <div class="col-lg-7" data-aos="fade-left">
+               <span class="slbl">A Little About Us</span>
+               <h2 class="stitle text-start">Good Food Brings<br />People <span>Together</span></h2>
+               <div class="sline lft"></div>
+               <p class="sdesc mb-4">
+                  At Ogbe Restaurant &amp; Grill, we believe every meal should be
+                  something to look forward to. Our menu celebrates the rich flavours
+                  of Nigerian cooking while making room for popular continental dishes.
+                  Whether you're enjoying lunch, dinner or a meal with friends,
+                  we're here to make it special.
+               </p>
+
+               <div class="mb-4">
+                  <div class="fti">
+                     <div class="ftico r"><i class="fas fa-leaf"></i></div>
+                     <div>
+                        <h6>Fresh Ingredients</h6>
+                        <p>We focus on fresh ingredients and carefully prepared meals.</p>
+                     </div>
+                  </div>
+                  <div class="fti">
+                     <div class="ftico y"><i class="fas fa-utensils"></i></div>
+                     <div>
+                        <h6>Flavours You'll Love</h6>
+                        <p>Enjoy familiar Nigerian favourites and delicious everyday meals.</p>
+                     </div>
+                  </div>
+                  <div class="fti">
+                     <div class="ftico g"><i class="fas fa-concierge-bell"></i></div>
+                     <div>
+                        <h6>Made for Every Occasion</h6>
+                        <p>From a quick lunch to a meal with family and friends, there's something for everyone.</p>
+                     </div>
+                  </div>
+               </div>
+               <a href="#menu" class="btn-red"><i class="fas fa-book-open"></i>View Our Menu</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- MENU -->
+   <section id="menu">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">Made Fresh for You</span>
+            <h2 class="stitle">Explore Our <span>Menu</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:500px;">From satisfying rice dishes to delicious grills and
+               traditional favourites.</p>
+         </div>
+
+         <div class="text-center mb-4" data-aos="fade-up">
+            <button class="filtbtn active" data-f="all">All</button>
+            <button class="filtbtn" data-f="burgers">Rice Meals</button>
+            <button class="filtbtn" data-f="pizza">Grills</button>
+            <button class="filtbtn" data-f="chicken">Chicken</button>
+            <button class="filtbtn" data-f="wraps">Swallow</button>
+            <button class="filtbtn" data-f="desserts">Sides</button>
+            <button class="filtbtn" data-f="pasta">Soups</button>
+         </div>
+
+         <div class="row g-4" id="mgrid">
+
+            <!-- JOLLOF RICE -->
+            <div class="col-sm-6 col-lg-4 mwrap" data-c="burgers" data-aos="fade-up">
+               <div class="mcard" data-img="img/menu/1.jpg" data-title="Party Jollof Rice" data-cat="Rice Meals"
+                  data-price="₦4,500" data-old="" data-rating="" data-reviews="" data-cal="" data-time="20"
+                  data-desc="Delicious Nigerian party-style jollof rice, richly seasoned and served with a tasty side."
+                  data-tags="Nigerian,Bestseller,Rice">
+                  <div class="mimg">
+                     <img src="jollof-rice-chicken.jpg" alt="Nigerian jollof rice" />
+                     <div class="mbdg hot"><i class="fas fa-fire"></i> Popular</div>
+                     <div class="mhrt"><i class="far fa-heart"></i></div>
+                  </div>
+                  <div class="mbody">
+                     <div class="mcat">Rice Meals</div>
+                     <div class="mtit">Party Jollof Rice</div>
+                     <div class="mdesc">Richly seasoned Nigerian jollof rice with a delicious flavour.</div>
+                     <div class="mfoot">
+                        <div>
+                           <div class="mprice">₦4,500</div>
+                           <div class="mstars">Nigerian Favourite</div>
+                        </div>
+                        <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- FRIED RICE -->
+            <div class="col-sm-6 col-lg-4 mwrap" data-c="burgers" data-aos="fade-up" data-aos-delay="80">
+               <div class="mcard" data-img="img/menu/2.jpg" data-title="Special Fried Rice" data-cat="Rice Meals"
+                  data-price="₦5,000" data-old="" data-rating="" data-reviews="" data-cal="" data-time="20"
+                  data-desc="Colourful fried rice prepared with mixed vegetables, seasoning and a tasty combination of ingredients."
+                  data-tags="Rice,Special,Fresh">
+                  <div class="mimg">
+                     <img src="nigerian-fried-rice.jpg" alt="Special fried rice" />
+                     <div class="mbdg new">Special</div>
+                     <div class="mhrt"><i class="far fa-heart"></i></div>
+                  </div>
+                  <div class="mbody">
+                     <div class="mcat">Rice Meals</div>
+                     <div class="mtit">Special Fried Rice</div>
+                     <div class="mdesc">Fried rice with mixed vegetables and delicious seasoning.</div>
+                     <div class="mfoot">
+                        <div>
+                           <div class="mprice">₦5,000</div>
+                           <div class="mstars">Freshly Prepared</div>
+                        </div>
+                        <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- GRILLED CHICKEN -->
+            <div class="col-sm-6 col-lg-4 mwrap" data-c="chicken" data-aos="fade-up" data-aos-delay="160">
+               <div class="mcard" data-img="img/menu/3.jpg" data-title="Grilled Chicken" data-cat="Chicken"
+                  data-price="₦6,500" data-old="" data-rating="" data-reviews="" data-cal="" data-time="25"
+                  data-desc="Well-seasoned chicken grilled until tender and flavourful, served with your choice of side."
+                  data-tags="Grilled,Chicken,Popular">
+                  <div class="mimg">
+                     <img src="jollof-rice-chicken.jpg" alt="Grilled chicken" />
+                     <div class="mbdg hot">Popular</div>
+                     <div class="mhrt"><i class="far fa-heart"></i></div>
+                  </div>
+                  <div class="mbody">
+                     <div class="mcat">Chicken</div>
+                     <div class="mtit">Grilled Chicken</div>
+                     <div class="mdesc">Tender, seasoned chicken grilled to bring out its rich flavour.</div>
+                     <div class="mfoot">
+                        <div>
+                           <div class="mprice">₦6,500</div>
+                           <div class="mstars">Grilled Fresh</div>
+                        </div>
+                        <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- BEEF SUYA -->
+            <div class="col-sm-6 col-lg-4 mwrap" data-c="pizza" data-aos="fade-up">
+               <div class="mcard" data-img="img/menu/4.jpg" data-title="Spicy Beef Suya" data-cat="Grills"
+                  data-price="₦5,500" data-old="" data-rating="" data-reviews="" data-cal="" data-time="15"
+                  data-desc="Tender beef pieces coated in a flavourful suya spice blend and grilled for a smoky, satisfying taste."
+                  data-tags="Suya,Beef,Spicy">
+                  <div class="mimg">
+                     <img src="beef-suya.jpg" alt="Beef suya" />
+                     <div class="mbdg hot">Spicy</div>
+                     <div class="mhrt"><i class="far fa-heart"></i></div>
+                  </div>
+                  <div class="mbody">
+                     <div class="mcat">Grills</div>
+                     <div class="mtit">Spicy Beef Suya</div>
+                     <div class="mdesc">Smoky grilled beef with a delicious blend of suya spices.</div>
+                     <div class="mfoot">
+                        <div>
+                           <div class="mprice">₦5,500</div>
+                           <div class="mstars">Grill Favourite</div>
+                        </div>
+                        <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- EGUSI -->
+            <div class="col-sm-6 col-lg-4 mwrap" data-c="wraps" data-aos="fade-up" data-aos-delay="80">
+               <div class="mcard" data-img="img/menu/5.jpg" data-title="Egusi Soup & Pounded Yam" data-cat="Swallow"
+                  data-price="₦7,000" data-old="" data-rating="" data-reviews="" data-cal="" data-time="25"
+                  data-desc="A hearty serving of Nigerian egusi soup paired with soft pounded yam for a satisfying traditional meal."
+                  data-tags="Traditional,Nigerian,Soup">
+                  <div class="mimg">
+                     <img src="swallow.jpg" alt="Egusi soup and pounded yam" />
+                     <div class="mbdg new">Traditional</div>
+                     <div class="mhrt"><i class="far fa-heart"></i></div>
+                  </div>
+                  <div class="mbody">
+                     <div class="mcat">Swallow</div>
+                     <div class="mtit">Egusi &amp; Pounded Yam</div>
+                     <div class="mdesc">A satisfying Nigerian classic with rich egusi soup.</div>
+                     <div class="mfoot">
+                        <div>
+                           <div class="mprice">₦7,000</div>
+                           <div class="mstars">Traditional Favourite</div>
+                        </div>
+                        <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- PEPPER SOUP -->
+            <div class="col-sm-6 col-lg-4 mwrap" data-c="pasta" data-aos="fade-up" data-aos-delay="160">
+               <div class="mcard" data-img="img/menu/6.jpg" data-title="Catfish Pepper Soup" data-cat="Soups"
+                  data-price="₦8,000" data-old="" data-rating="" data-reviews="" data-cal="" data-time="25"
+                  data-desc="A warming Nigerian pepper soup prepared with aromatic spices and fresh catfish."
+                  data-tags="Pepper Soup,Catfish,Spicy">
+                  <div class="mimg">
+                     <img src="grilled-fish.jpg" alt="Catfish pepper soup" />
+                     <div class="mbdg hot">Spicy</div>
+                     <div class="mhrt"><i class="far fa-heart"></i></div>
+                  </div>
+                  <div class="mbody">
+                     <div class="mcat">Soups</div>
+                     <div class="mtit">Catfish Pepper Soup</div>
+                     <div class="mdesc">A warming bowl of catfish pepper soup with aromatic spices.</div>
+                     <div class="mfoot">
+                        <div>
+                           <div class="mprice">₦8,000</div>
+                           <div class="mstars">Made Fresh</div>
+                        </div>
+                        <button class="madd" title="View Details"><i class="fas fa-plus"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="text-center mt-5">
+            <a href="#contact-section" class="btn-red"><i class="fas fa-phone-alt"></i>Ask About Our Menu</a>
+         </div>
+      </div>
+   </section>
+
+   <!-- MENU DETAIL POPUP -->
+   <div id="menuPop">
+      <div class="mpbox">
+         <button class="mpclose" id="mpClose"><i class="fas fa-times"></i></button>
+         <div class="mpimg"><img id="mpImg" src="" alt="" /></div>
+         <div class="mpbody">
+            <div id="mpCat"></div>
+            <div id="mpTitle"></div>
+            <div id="mpStars"></div>
+            <div id="mpDesc"></div>
+            <div id="mpPrice"></div>
+            <div class="mpmeta" id="mpMeta"></div>
+            <div class="mpqty">
+               <button class="mpqbtn" id="mpMinus">-</button>
+               <span class="mpqnum" id="mpQnum">1</span>
+               <button class="mpqbtn" id="mpPlus">+</button>
+               <span style="font-size:.82rem;color:#aaa;margin-left:9px;">portion</span>
+            </div>
+            <div class="mptags" id="mpTags"></div>
+            <button class="mpaddcart" id="mpAddCart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+         </div>
+      </div>
+   </div>
+
+   <!-- SPECIAL OFFER -->
+   <section id="special">
+      <div class="spbg"></div>
+      <div class="container" style="position:relative;z-index:2;">
+         <div class="row align-items-center g-5">
+            <div class="col-lg-6" data-aos="fade-right">
+               <div class="sptag"><i class="fas fa-star me-1"></i> A Taste Worth Sharing</div>
+               <h2 class="sptitle">Make Every Meal<br />a <span>Special</span><br />Moment</h2>
+               <p class="spdesc">Enjoy delicious meals made with care. Explore our menu and find something special for
+                  your next lunch, dinner or get-together.</p>
+               <a href="#menu" class="btn-red"><i class="fas fa-utensils"></i>Explore the Menu</a>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+               <div class="spimgw">
+                  <div class="spglow"></div>
+                  <img src="img/off-img.jpg" alt="A delicious meal from Ogbe Restaurant" />
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- GALLERY -->
+   <section id="gallery">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">A Feast for the Eyes</span>
+            <h2 class="stitle">Fresh From <span>Our Kitchen</span></h2>
+            <div class="sline"></div>
+         </div>
+
+         <div class="ggrid" data-aos="fade-up">
+            <div class="gitem" data-gi="0" data-gimg="img/portfolio/work1.jpg" data-gtitle="Nigerian Rice Dishes"
+               data-gdesc="Enjoy satisfying rice meals prepared with rich seasoning and flavour.">
+               <img src="nigerian-fried-rice.jpg" alt="Nigerian rice dishes" />
+               <div class="gover"><span><i class="fas fa-expand-alt"></i> Rice Dishes</span></div>
+            </div>
+            <div class="gitem" data-gi="1" data-gimg="img/portfolio/work2.jpg" data-gtitle="Freshly Grilled Meals"
+               data-gdesc="Discover delicious grilled meals prepared with care.">
+               <img src="grilled-fish.jpg" alt="Grilled meals" />
+               <div class="gover"><span><i class="fas fa-expand-alt"></i> Grilled Meals</span></div>
+            </div>
+            <div class="gitem" data-gi="2" data-gimg="img/portfolio/work3.jpg" data-gtitle="Chicken Specials"
+               data-gdesc="Tender chicken dishes seasoned for a satisfying meal.">
+               <img src="jollof-rice-chicken.jpg" alt="Chicken meal" />
+               <div class="gover"><span><i class="fas fa-expand-alt"></i> Chicken Specials</span></div>
+            </div>
+            <div class="gitem" data-gi="3" data-gimg="img/portfolio/work4.jpg" data-gtitle="Traditional Favourites"
+               data-gdesc="Traditional Nigerian meals made for people who love great food.">
+               <img src="swallow.jpg" alt="Traditional Nigerian food" />
+               <div class="gover"><span><i class="fas fa-expand-alt"></i> Local Favourites</span></div>
+            </div>
+            <div class="gitem" data-gi="4" data-gimg="img/portfolio/work5.jpg" data-gtitle="Soups and Sides"
+               data-gdesc="Complete your meal with delicious soups and sides.">
+               <img src="swallow & drink.jpg" alt="Soups and sides" />
+               <div class="gover"><span><i class="fas fa-expand-alt"></i> Soups &amp; Sides</span></div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- GALLERY POPUP -->
+   <div id="galPop">
+      <div class="gpbox">
+         <button class="gpclose" id="gpClose"><i class="fas fa-times"></i></button>
+         <img id="gpImg" src="" alt="" />
+         <div class="gpcap">
+            <h5 id="gpTitle"></h5>
+            <p id="gpDesc"></p>
+         </div>
+         <div class="gpnav">
+            <button id="gpPrev"><i class="fas fa-chevron-left me-1"></i>Prev</button>
+            <button id="gpNext">Next <i class="fas fa-chevron-right ms-1"></i></button>
+         </div>
+      </div>
+   </div>
+
+   <!-- OUR APPROACH -->
+   <section id="history">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">What Matters to Us</span>
+            <h2 class="stitle">The Ogbe <span>Experience</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:480px;">Good food is more than a meal. It's the flavour, the care
+               and the moments we share.</p>
+         </div>
+
+         <div class="timeline" data-aos="fade-up">
+            <div class="tli">
+               <div class="tl-left">
+                  <div class="tlyear">01</div>
+                  <h5>Fresh Ingredients</h5>
+                  <p>We focus on carefully selected ingredients to bring flavour and quality to every meal.</p>
+               </div>
+               <div class="tl-center">
+                  <div class="tldot"></div>
+               </div>
+               <div class="tl-right">
+                  <div class="tlyear">01</div>
+                  <h5>Fresh Ingredients</h5>
+                  <p>We focus on carefully selected ingredients to bring flavour and quality to every meal.</p>
+               </div>
+            </div>
+
+            <div class="tli">
+               <div class="tl-left">
+                  <div class="tlyear">02</div>
+                  <h5>Flavourful Cooking</h5>
+                  <p>Our menu celebrates familiar Nigerian flavours alongside meals inspired by different cuisines.</p>
+               </div>
+               <div class="tl-center">
+                  <div class="tldot"></div>
+               </div>
+               <div class="tl-right">
+                  <div class="tlyear">02</div>
+                  <h5>Flavourful Cooking</h5>
+                  <p>Our menu celebrates familiar Nigerian flavours alongside meals inspired by different cuisines.</p>
+               </div>
+            </div>
+
+            <div class="tli">
+               <div class="tl-left">
+                  <div class="tlyear">03</div>
+                  <h5>Care in Every Order</h5>
+                  <p>We believe every customer deserves a meal prepared with attention and served with care.</p>
+               </div>
+               <div class="tl-center">
+                  <div class="tldot"></div>
+               </div>
+               <div class="tl-right">
+                  <div class="tlyear">03</div>
+                  <h5>Care in Every Order</h5>
+                  <p>We believe every customer deserves a meal prepared with attention and served with care.</p>
+               </div>
+            </div>
+
+            <div class="tli">
+               <div class="tl-left">
+                  <div class="tlyear">04</div>
+                  <h5>Memorable Moments</h5>
+                  <p>Whether it's lunch, dinner or a gathering, we want good food to be part of your best moments.</p>
+               </div>
+               <div class="tl-center">
+                  <div class="tldot"></div>
+               </div>
+               <div class="tl-right">
+                  <div class="tlyear">04</div>
+                  <h5>Memorable Moments</h5>
+                  <p>Whether it's lunch, dinner or a gathering, we want good food to be part of your best moments.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- KITCHEN TEAM -->
+   <section id="chefs">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">Behind Every Meal</span>
+            <h2 class="stitle">Our <span>Kitchen</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:480px;">A great meal begins with care, skill and attention in the
+               kitchen.</p>
+         </div>
+
+         <div class="row g-4">
+            <div class="col-sm-6 col-lg-3" data-aos="fade-up">
+               <div class="chcard">
+                  <div class="chimg">
+                     <img src="img/chefs/1.jpg" alt="Kitchen team member" />
+                  </div>
+                  <div class="chbody">
+                     <div class="chnm">Kitchen Team</div>
+                     <div class="chrole">Meal Preparation</div>
+                     <div class="chexp">Fresh food, every day</div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="80">
+               <div class="chcard">
+                  <div class="chimg">
+                     <img src="img/chefs/2.jpg" alt="Grill team member" />
+                  </div>
+                  <div class="chbody">
+                     <div class="chnm">Grill Team</div>
+                     <div class="chrole">Grills &amp; Specials</div>
+                     <div class="chexp">Prepared with care</div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+               <div class="chcard">
+                  <div class="chimg">
+                     <img src="img/chefs/3.jpg" alt="Kitchen team member" />
+                  </div>
+                  <div class="chbody">
+                     <div class="chnm">Kitchen Team</div>
+                     <div class="chrole">Local Dishes</div>
+                     <div class="chexp">Celebrating local flavours</div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+               <div class="chcard">
+                  <div class="chimg">
+                     <img src="img/chefs/4.jpg" alt="Kitchen team member" />
+                  </div>
+                  <div class="chbody">
+                     <div class="chnm">Service Team</div>
+                     <div class="chrole">Customer Experience</div>
+                     <div class="chexp">Here to help</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- OPENING HOURS -->
+   <section id="hours">
+      <div class="hrsbg"></div>
+      <div class="container" style="position:relative;z-index:2;">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl" style="color:#a5d6bc;">Visit Ogbe</span>
+            <h2 class="stitle" style="color:#fff;">Plan Your <span style="color:var(--secondary);">Visit</span></h2>
+            <div class="sline"></div>
+         </div>
+
+         <div class="row g-4 align-items-start">
+            <div class="col-lg-5" data-aos="fade-right">
+               <div class="hrscard">
+                  <div class="hrsrow">
+                     <span class="hrsday"><i class="fas fa-calendar-day me-2" style="color:var(--secondary);"></i>Monday
+                        - Friday</span>
+                     <span class="hrstime">Confirm opening hours</span>
+                  </div>
+                  <div class="hrsrow">
+                     <span class="hrsday"><i class="fas fa-calendar-day me-2"
+                           style="color:var(--secondary);"></i>Saturday</span>
+                     <span class="hrstime">Confirm opening hours</span>
+                  </div>
+                  <div class="hrsrow">
+                     <span class="hrsday"><i class="fas fa-calendar-day me-2"
+                           style="color:var(--secondary);"></i>Sunday</span>
+                     <span class="hrstime">Confirm opening hours</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-3" data-aos="zoom-in">
+               <div class="hrscta">
+                  <i class="fas fa-utensils fa-2x mb-3" style="color:rgba(255,255,255,.8);"></i>
+                  <h4>Explore Our Menu</h4>
+                  <p>Find your next favourite meal.</p>
+                  <a href="#menu" class="btnw">View Menu</a>
+               </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-left">
+               <div class="hrscard">
+                  <h5
+                     style="color:#fff;margin-bottom:18px;font-family:'Poppins',sans-serif;font-size:.95rem;font-weight:700;">
+                     <i class="fas fa-map-marker-alt me-2" style="color:var(--secondary);"></i>Contact Details
+                  </h5>
+                  <div class="hrsrow"><span class="hrsday">Address</span><span class="hrstime"
+                        style="font-size:.8rem;">Add restaurant address</span></div>
+                  <div class="hrsrow"><span class="hrsday">Phone</span><span class="hrstime"
+                        style="font-size:.8rem;">+234 XXX XXX XXXX</span></div>
+                  <div class="hrsrow"><span class="hrsday">Email</span><span class="hrstime"
+                        style="font-size:.8rem;">hello@ogberestaurant.com</span></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- TESTIMONIALS -->
+   <section id="testimonials">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">Customer Experience</span>
+            <h2 class="stitle">Your Feedback <span>Matters</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:480px;">We value every customer and every opportunity to serve you
+               better.</p>
+         </div>
+
+         <div class="swiper tesSwiper" data-aos="fade-up">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide">
+                  <div class="tescard">
+                     <div class="tesq">"</div>
+                     <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                           class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                     <p class="testxt">The perfect place to enjoy a satisfying meal. The food looks inviting and the
+                        menu has something for everyone.</p>
+                     <div class="tesauth">
+                        <img src="img/testimonial/1.jpg" alt="Sample customer" />
+                        <div>
+                           <div class="tesnm">Rita Philips</div>
+                           <div class="tesrl">Customer</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="tescard">
+                     <div class="tesq">"</div>
+                     <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                           class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                     <p class="testxt">A lovely selection of local meals and everyday favourites. There's always
+                        something delicious to try.</p>
+                     <div class="tesauth">
+                        <img src="img/testimonial/2.jpg" alt="Sample customer" />
+                        <div>
+                           <div class="tesnm">Cole Brian</div>
+                           <div class="tesrl">Customer</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="swiper-slide">
+                  <div class="tescard">
+                     <div class="tesq">"</div>
+                     <div class="tess"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                           class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                     <p class="testxt">The menu makes it easy to find something for lunch or dinner. I would love to
+                        come back and try more dishes.</p>
+                     <div class="tesauth">
+                        <img src="img/testimonial/3.jpg" alt="Sample customer" />
+                        <div>
+                           <div class="tesnm">Faith Attah</div>
+                           <div class="tesrl">Customer</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination mt-4" style="position:static;"></div>
+         </div>
+         <p class="text-center mt-3" style="font-size:.75rem;color:#999;"></p>
+      </div>
+   </section>
+
+   <!-- RESERVATION -->
+   <section id="reservation">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">Plan Your Visit</span>
+            <h2 class="stitle">Book a <span>Table</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:480px;">Planning a meal with friends or family? Send us your
+               preferred date and details.</p>
+         </div>
+
+         <div class="row g-4 align-items-start">
+            <div class="col-lg-4" data-aos="fade-right">
+               <div style="background:var(--dark);border-radius:18px;padding:36px;">
+                  <h4 style="color:#fff;font-size:1.3rem;margin-bottom:8px;">Let's Plan Your Visit</h4>
+                  <p style="color:rgba(255,255,255,.55);font-size:.85rem;margin-bottom:26px;">Contact the restaurant to
+                     discuss your visit or group booking.</p>
+                  <div class="d-flex flex-column gap-3">
+                     <div class="d-flex align-items-center gap-3">
+                        <div
+                           style="width:46px;height:46px;border-radius:11px;background:rgba(232,40,26,.2);display:flex;align-items:center;justify-content:center;color:var(--primary);font-size:1.1rem;flex-shrink:0;">
+                           <i class="fas fa-clock"></i></div>
+                        <div><strong style="display:block;color:#ccc;font-size:.78rem;">OPENING HOURS</strong><span
+                              style="color:#fff;font-size:.87rem;">Please confirm with us</span></div>
+                     </div>
+                     <div class="d-flex align-items-center gap-3">
+                        <div
+                           style="width:46px;height:46px;border-radius:11px;background:rgba(232,40,26,.2);display:flex;align-items:center;justify-content:center;color:var(--primary);font-size:1.1rem;flex-shrink:0;">
+                           <i class="fas fa-phone-alt"></i></div>
+                        <div><strong style="display:block;color:#ccc;font-size:.78rem;">CALL US</strong><span
+                              style="color:#fff;font-size:.87rem;">+234 XXX XXX XXXX</span></div>
+                     </div>
+                     <div class="d-flex align-items-center gap-3">
+                        <div
+                           style="width:46px;height:46px;border-radius:11px;background:rgba(232,40,26,.2);display:flex;align-items:center;justify-content:center;color:var(--primary);font-size:1.1rem;flex-shrink:0;">
+                           <i class="fas fa-map-marker-alt"></i></div>
+                        <div><strong style="display:block;color:#ccc;font-size:.78rem;">LOCATION</strong><span
+                              style="color:#fff;font-size:.87rem;">Add restaurant address</span></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-left">
+               <div class="fcard">
+                  <div class="row g-3">
+                     <div class="col-sm-6"><label class="flbl">Full Name *</label><input type="text" class="fctrl"
+                           placeholder="Your full name" required /></div>
+                     <div class="col-sm-6"><label class="flbl">Phone Number *</label><input type="tel" class="fctrl"
+                           placeholder="+234..." required /></div>
+                     <div class="col-sm-6"><label class="flbl">Email Address</label><input type="email" class="fctrl"
+                           placeholder="you@email.com" /></div>
+                     <div class="col-sm-6">
+                        <label class="flbl">Number of Guests *</label>
+                        <select class="fctrl" required>
+                           <option value="">Select guests</option>
+                           <option>1 Person</option>
+                           <option>2 People</option>
+                           <option>3 - 4 People</option>
+                           <option>5 - 6 People</option>
+                           <option>7 - 10 People</option>
+                           <option>10+ People</option>
+                        </select>
+                     </div>
+                     <div class="col-sm-6"><label class="flbl">Preferred Date *</label><input type="date" class="fctrl"
+                           required /></div>
+                     <div class="col-sm-6">
+                        <label class="flbl">Preferred Time *</label>
+                        <select class="fctrl" required>
+                           <option value="">Select time</option>
+                           <option>10:00 AM</option>
+                           <option>11:00 AM</option>
+                           <option>12:00 PM</option>
+                           <option>01:00 PM</option>
+                           <option>02:00 PM</option>
+                           <option>03:00 PM</option>
+                           <option>05:00 PM</option>
+                           <option>06:00 PM</option>
+                           <option>07:00 PM</option>
+                           <option>08:00 PM</option>
+                           <option>09:00 PM</option>
+                        </select>
+                     </div>
+                     <div class="col-12"><label class="flbl">Special Requests</label><textarea class="fctrl" rows="3"
+                           placeholder="Tell us about any special requests..."></textarea></div>
+                     <div class="col-12"><button class="btn-red w-100 justify-content-center" id="resBtn"><i
+                              class="fas fa-calendar-check"></i>Send Reservation Request</button></div>
+                  </div>
+                  <div class="sucmsg" id="resOk">
+                     <i class="fas fa-check-circle"></i>
+                     <p>Your request has been received in this demo. Connect a booking service to receive real
+                        reservations.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- BLOG -->
+   <section id="blog">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">Food &amp; Inspiration</span>
+            <h2 class="stitle">From Our <span>Kitchen</span></h2>
+            <div class="sline"></div>
+         </div>
+
+         <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up">
+               <div class="blcard">
+                  <div class="blimg">
+                     <img src="nigerian-fried-rice.jpg" alt="Nigerian jollof rice" />
+                     <div class="bldatebdg"><span class="bd">01</span><span class="bm">Food</span></div>
+                  </div>
+                  <div class="blbody">
+                     <div class="bltag">Nigerian Cuisine</div>
+                     <div class="bltit"><a href="#menu">What Makes Nigerian Jollof Rice So Special?</a></div>
+                     <div class="blmeta"><span><i class="fas fa-utensils"></i> Ogbe Kitchen</span></div>
+                     <a href="#menu" class="blmore">Explore Our Menu <i class="fas fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="80">
+               <div class="blcard">
+                  <div class="blimg">
+                     <img src="swallow.jpg" alt="Fresh ingredients" />
+                     <div class="bldatebdg"><span class="bd">02</span><span class="bm">Food</span></div>
+                  </div>
+                  <div class="blbody">
+                     <div class="bltag">Food &amp; Ingredients</div>
+                     <div class="bltit"><a href="#about">Why Fresh Ingredients Make a Difference</a></div>
+                     <div class="blmeta"><span><i class="fas fa-utensils"></i> Ogbe Kitchen</span></div>
+                     <a href="#about" class="blmore">Discover Ogbe <i class="fas fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="160">
+               <div class="blcard">
+                  <div class="blimg">
+                     <img src="beef-suya.jpg" alt="Traditional Nigerian meal" />
+                     <div class="bldatebdg"><span class="bd">03</span><span class="bm">Food</span></div>
+                  </div>
+                  <div class="blbody">
+                     <div class="bltag">Local Favourites</div>
+                     <div class="bltit"><a href="#menu">A Taste of Traditional Nigerian Meals</a></div>
+                     <div class="blmeta"><span><i class="fas fa-utensils"></i> Ogbe Kitchen</span></div>
+                     <a href="#menu" class="blmore">See Our Menu <i class="fas fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- NEWSLETTER -->
+   <section id="newsletter">
+      <div class="nlbg"></div>
+      <div class="container">
+         <div class="nlw text-center" data-aos="zoom-in">
+            <span class="slbl" style="color:rgba(255,255,255,.7);">Stay Connected</span>
+            <h2 class="mb-3" style="color:#fff;">Get the Latest From <span style="color:var(--secondary);">Ogbe</span>
+            </h2>
+            <p class="mb-4" style="color:rgba(255,255,255,.78);">Stay updated on our menu, food inspiration and
+               restaurant news.</p>
+            <div class="nl-form-wrap">
+               <input class="nlinput" type="email" id="nlEmail" placeholder="Enter your email address..." />
+               <button class="nlbtn" id="nlBtn"><i class="fas fa-paper-plane me-1"></i>Subscribe</button>
+            </div>
+            <p style="color:rgba(255,255,255,.45);font-size:.76rem;margin-top:11px;"><i
+                  class="fas fa-lock me-1"></i>Connect a newsletter service to collect subscriptions.</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- CONTACT -->
+   <section id="contact-section">
+      <div class="container">
+         <div class="text-center mb-5" data-aos="fade-up">
+            <span class="slbl">We're Here to Help</span>
+            <h2 class="stitle">Get in <span>Touch</span></h2>
+            <div class="sline"></div>
+            <p class="sdesc mx-auto" style="max-width:480px;">Have a question about our menu, a booking or a special
+               request? We'd love to hear from you.</p>
+         </div>
+
+         <div class="row g-4">
+            <div class="col-lg-4" data-aos="fade-right">
+               <div class="ctdark">
+                  <h4>Contact Ogbe</h4>
+                  <p class="ctsub">Reach out to us for enquiries, reservations and other information.</p>
+
+                  <div class="ctitem">
+                     <div class="cticon"><i class="fas fa-map-marker-alt"></i></div>
+                     <div class="ctinfo"><strong>Address</strong><span>Add your restaurant address here</span></div>
+                  </div>
+                  <div class="ctitem">
+                     <div class="cticon"><i class="fas fa-phone-alt"></i></div>
+                     <div class="ctinfo"><strong>Phone</strong><span>+234 XXX XXX XXXX</span></div>
+                  </div>
+                  <div class="ctitem">
+                     <div class="cticon"><i class="fas fa-envelope"></i></div>
+                     <div class="ctinfo"><strong>Email</strong><span>hello@ogberestaurant.com</span></div>
+                  </div>
+                  <div class="ctitem">
+                     <div class="cticon"><i class="fas fa-clock"></i></div>
+                     <div class="ctinfo"><strong>Working Hours</strong><span>Please confirm our opening hours</span>
+                     </div>
+                  </div>
+
+                  <div class="ctsocrow">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-tiktok"></i></a>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-8" data-aos="fade-left">
+               <div class="fcard">
+                  <div class="row g-3">
+                     <div class="col-sm-6"><label class="flbl">Your Name *</label><input type="text" class="fctrl"
+                           placeholder="Your full name" required /></div>
+                     <div class="col-sm-6"><label class="flbl">Email Address *</label><input type="email" class="fctrl"
+                           placeholder="you@email.com" required /></div>
+                     <div class="col-sm-6"><label class="flbl">Phone Number</label><input type="tel" class="fctrl"
+                           placeholder="+234..." /></div>
+                     <div class="col-sm-6">
+                        <label class="flbl">Subject *</label>
+                        <select class="fctrl" required>
+                           <option>General Enquiry</option>
+                           <option>Menu Enquiry</option>
+                           <option>Reservation</option>
+                           <option>Events &amp; Catering</option>
+                           <option>Feedback</option>
+                        </select>
+                     </div>
+                     <div class="col-12"><label class="flbl">Message *</label><textarea class="fctrl" rows="5"
+                           placeholder="Write your message here..." required></textarea></div>
+                     <div class="col-12"><button class="btn-red" id="ctcBtn"><i class="fas fa-paper-plane"></i>Send
+                           Message</button></div>
+                  </div>
+                  <div class="sucmsg" id="ctcOk">
+                     <i class="fas fa-check-circle"></i>
+                     <p>This is a demonstration form. Connect an email or form service to receive messages.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- FOOTER -->
+   <footer>
+      <div class="container">
+         <div class="row g-5">
+            <div class="col-lg-4">
+               <div class="fnm">Og<span>be</span></div>
+               <p class="fdesc">Good food, familiar flavours and memorable moments. Discover Nigerian favourites and
+                  delicious meals at Ogbe Restaurant &amp; Grill.</p>
+               <div class="fsoc">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-tiktok"></i></a>
+               </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-2">
+               <div class="ftit">Quick Links</div>
+               <ul class="flinks ps-0">
+                  <li><a href="#hero"><i class="fas fa-chevron-right"></i>Home</a></li>
+                  <li><a href="#about"><i class="fas fa-chevron-right"></i>About Us</a></li>
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Our Menu</a></li>
+                  <li><a href="#reservation"><i class="fas fa-chevron-right"></i>Reservation</a></li>
+                  <li><a href="#blog"><i class="fas fa-chevron-right"></i>Food Blog</a></li>
+                  <li><a href="#contact-section"><i class="fas fa-chevron-right"></i>Contact</a></li>
+               </ul>
+            </div>
+
+            <div class="col-sm-6 col-lg-2">
+               <div class="ftit">Our Menu</div>
+               <ul class="flinks ps-0">
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Jollof Rice</a></li>
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Fried Rice</a></li>
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Grilled Chicken</a></li>
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Beef Suya</a></li>
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Egusi Soup</a></li>
+                  <li><a href="#menu"><i class="fas fa-chevron-right"></i>Pepper Soup</a></li>
+               </ul>
+            </div>
+
+            <div class="col-lg-4">
+               <div class="ftit">Get in Touch</div>
+               <div class="fci">
+                  <div class="fciico"><i class="fas fa-map-marker-alt"></i></div>
+                  <div class="fciinfo"><strong>Address</strong>Kurudu Phase 5, Abuja.</div>
+               </div>
+               <div class="fci">
+                  <div class="fciico"><i class="fas fa-phone-alt"></i></div>
+                  <div class="fciinfo"><strong>Phone</strong>+234 8137157686</div>
+               </div>
+               <div class="fci">
+                  <div class="fciico"><i class="fas fa-envelope"></i></div>
+                  <div class="fciinfo"><strong>Email</strong>hello@ogberestaurant.com</div>
+               </div>
+               <div class="fci">
+                  <div class="fciico"><i class="fas fa-clock"></i></div>
+                  <div class="fciinfo"><strong>Hours</strong>7:30am : 11pm Daily</div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="fbot">
+         <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+               <p>&copy; 2026 <span>Ogbe Restaurant &amp; Grill</span>. All Rights Reserved.</p>
+               <div><a href="#">Privacy Policy</a><a href="#">Terms</a></div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- BACK TO TOP -->
+   <button id="btt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+   </button>
+
+   <!-- SCRIPTS -->
+   <script src="js/jquery-3.7.1.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/aos.js"></script>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+
+</html>
